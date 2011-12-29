@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.2" type="plugin" group="editors-xtd" method="upgrade">
+	<name>Editor Button - Ninja Zemanta</name>
+	<author>Richie Mortimer</author>
+	<creationDate>June 2009</creationDate>
+	<copyright>Copyright 2008, Richie Mortimer, Ninjaforge.com</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>richie@ninjaforge.com</authorEmail>
+	<authorUrl>http://www.ninjaforge.com</authorUrl>
+	<version>1.0.4</version>
+	<description>NINJACONTENT</description>
+	<files>
+		<filename plugin="ninjazemanta">ninjazemanta.php</filename>
+        <folder>ninjazemanta</folder>
+	</files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB.plg_editors-xtd_ninjazemanta.ini</language>
+   </languages>
+	<params>
+  	<param name="zemanta_api_key" type="text" default="" label="Zemanta API Key" description="This parameter is automaticly set the first time you run zemanta, alternatively you can enter your own api key" />
+
+	</params>
+</install>
